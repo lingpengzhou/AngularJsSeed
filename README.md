@@ -16,4 +16,4 @@ Login页面：
 
 
 跳转后的页面：
-![image](https://github.com/lingpengzhou/AngularJsSeed/raw/master/screenshots/SeedAdmin.jpg)
+![image](https://github.com/lingpengzhou/AngularJsSeed/raw/master/screenshots/SeedAdmin.png)
