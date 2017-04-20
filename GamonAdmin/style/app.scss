@@ -1,0 +1,173 @@
+.app 
+{
+    .app-header {
+        display:flex;
+    }
+    .bg-dark .text-lt {
+        color:#eaebed !important;
+    }
+    .login-box, .register-box {
+        width: 360px;
+        margin: 7% auto;
+    }
+    .login-logo, .register-logo {
+        font-size: 35px;
+        text-align: center;
+        font-weight: 300;
+    }
+    .login-logo a, .register-logo a {
+        color: #444;
+    }
+    b, strong {
+        font-weight: 700;
+    }
+    .login-box-body, .register-box-body {
+        background: #fff;
+        padding: 20px;
+        border-top: 0;
+        color: #666;
+    }
+
+    .form-group {
+        margin-bottom: 15px;
+    }
+
+    .btn.btn-flat {
+        border-radius: 0;
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none;
+        border-width: 1px;
+    }
+    .login-box-msg, .register-box-msg {
+        margin: 0;
+        text-align: center;
+        padding: 0 20px 20px 20px;
+    }
+    .app-header-fixed .app-header {
+    	position: fixed;
+        top: 0;
+        width: 100%;
+        display: flex;
+        z-index: 1025;
+        border-radius: 0;
+    }
+    .navbar {
+        margin: 0;
+        border-width: 0;
+        border-radius: 0;
+    }
+    .bg-dark {
+        color: #a6a8b1;
+        background-color: #3a3f51;
+        flex: 1;
+    }
+    .box-shadow {
+        box-shadow: 0 2px 2px rgba(0, 0, 0, 0.05), 0 1px 0 rgba(0, 0, 0, 0.05);
+    }
+    .has-error {
+    	color:#a94442;
+    }
+    .nav-pills > li > a {
+        border-radius:0px;
+        color:#b4b6bd;
+    }
+    .managerFlexRight  {
+        background-color:#ecf0f5;
+    }
+    .font-bold {
+        font-weight:700;
+    }
+    .navi ul.nav li a > i {
+        position: relative;
+        float: left;
+        width: 40px;
+        margin: -10px -10px;
+        margin-right: 5px;
+        overflow: hidden;
+        line-height: 40px;
+        text-align: center;
+    }
+    .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+        background-color:#32374a;
+    }
+    .btn-primary {
+        color: #fff;
+        background-color: #3a3f51;
+        border-color: #3a3f51;
+        border-radius: 0;
+    }
+    .thumb-sm {
+        display: inline-block;
+        width: 40px;
+    }
+    .avatar {
+        position: relative;
+        display: block;
+        white-space: nowrap;
+        border-radius: 500px
+    }
+    .thumb img, .thumb-xs img, .thumb-sm img, .thumb-md img, .thumb-lg img, .thumb-btn img {
+        height: auto;
+        max-width: 100%;
+        vertical-align: middle;
+    }
+    .avatar img {
+        width: 100%;
+        border-radius: 500px;
+    }
+    .m-b-n-sm {
+        margin-bottom: -10px;
+    }
+    .m-t-n-sm {
+        margin-top: -10px;
+    }
+    .m-l-sm {
+        margin-left: 10px;
+    }
+    a {
+        color: #363f44;
+        text-decoration: none;
+        cursor: pointer;
+    }
+    .avatar.thumb-sm i {
+        margin: 1px;
+    }
+    .avatar i.on {
+        background-color: #27c24c;
+    }
+    .avatar i.bottom {
+        top: auto;
+        right: 0;
+        bottom: 0;
+        left: auto;
+    }
+    .avatar i {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 10px;
+        height: 10px;
+        margin: 2px;
+        border-style: solid;
+        border-width: 2px;
+        border-radius: 100%;
+    }
+    .b-white {
+        border-color: #ffffff;
+    }
+    .nav > li > a:hover, .nav > li > a:focus {
+        background-color: #f6f8f8;
+    }
+    .managerUser {
+        .panel {
+            border-top: 3px solid #d2d6de;
+            border-radius: 3px;
+            border-top-color: #5c5151;
+            box-shadow: 10px 10px 5px #888888;
+        }
+    }
+    .btn-default {
+        border-radius:0px;
+    }
+}

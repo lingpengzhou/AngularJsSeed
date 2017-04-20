@@ -1,0 +1,42 @@
+<style>
+	.managerUserButtonClass {
+		float: left;
+		margin-top: 10px;
+		padding-bottom: 10px;
+	}	
+</style>
+
+
+<div class="managerUser container-fluid">
+	<div class="row">
+		<div class="col-md-1  col-md-offset-1 managerUserButtonClass">  <ga-modal name="添加用户" confirm="confirm(name)"></ga-modal></div>
+		<div class="col-md-1 managerUserButtonClass"><ga-modal name="删除用户"></ga-modal></div>
+		<div class="col-md-1 managerUserButtonClass"><ga-modal name="重置密码"></ga-modal></div>
+	</div>
+	<div class="row">
+		<div class="panel panel-default">
+		  <!-- Default panel contents -->
+		  <div class="panel-heading">用户详细信息</div>
+
+		  <!-- Table -->
+			<table class="table">
+	        <thead>
+	          <tr>
+	          	<th></th>
+	            <th ng-repeat="thvalue in tableData">{{thvalue.goodsName}}</th>
+	          </tr>
+	        </thead>
+	        <tbody>
+	          <tr ng-repeat="tdvalue in tableData">
+	          	<th><input type="checkbox"></input></th>
+	           	<th>{{tdvalue.goodsInfo.price}}</th>
+	           	<th>{{tdvalue.goodsInfo.date}}</th>
+	           	<th>{{tdvalue.goodsInfo.date}}</th>
+	          </tr>
+	        </tbody>
+	      </table>
+	      <ng-pagination></ng-pagination>
+		</div>
+	</div>
+</div>
+

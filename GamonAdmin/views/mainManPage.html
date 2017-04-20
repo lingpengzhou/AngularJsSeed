@@ -1,0 +1,81 @@
+<style>
+	.managerPageBox {
+		display: flex;
+		flex-direction: row;
+	}
+	.managerFlexLeft {
+		flex:1;
+	}
+	.managerFlexRight {
+		flex:5;
+	}
+</style>
+
+<div class="app-header navbar">
+      <!-- navbar header -->
+      	<div class="navbar-header bg-dark">
+	        <button class="pull-right visible-xs dk" data-toggle="class:show" data-target=".navbar-collapse">
+	          <i class="glyphicon glyphicon-cog"></i>
+	        </button>
+	        <button class="pull-right visible-xs" data-toggle="class:off-screen" data-target=".app-aside" ui-scroll="app">
+	          <i class="glyphicon glyphicon-align-justify"></i>
+	        </button>
+	        <!-- brand -->
+	        <a href="#/" class="navbar-brand text-lt">
+	          <i class="fa fa-btc"></i>
+	          <img src="img/logo.png" alt="." class="hide">
+	          <span class="hidden-folded m-l-xs">GAMON</span>
+	        </a>
+	        <!-- / brand -->
+      	</div>
+      <!-- / navbar header -->
+        <!-- nabar right -->
+     <!--   	<div style="flex:5;background-color: goldenrod;" class="container-fluid"> -->
+      	<div style="flex:5;" class="container-fluid">
+	        <ul class="nav navbar-nav navbar-right">
+	  		 	
+	          <li class="dropdown">
+	            <a href="#" data-toggle="dropdown" class="dropdown-toggle clear">
+	              <span class="thumb-sm avatar pull-right m-t-n-sm m-b-n-sm m-l-sm">
+	                <img src="images/a0.jpg" alt="...">
+	                <i class="on md b-white bottom"></i>
+	              </span>
+	              <span class="hidden-sm hidden-md" style="font-weight: bolder;">熊俊</span> <b class="caret"></b>
+	            </a>
+	            <!-- dropdown -->
+	            <ul class="dropdown-menu animated fadeInRight w">
+	              <li>
+	                <a ui-sref="app.docs">
+	                  <span class="label bg-info pull-right">new</span>
+	                  帮助
+	                </a>
+	              </li>
+	              <li class="divider"></li>
+	              <li>
+	                <a ui-sref="access.signin">登出</a>
+	              </li>
+	            </ul>
+	            <!-- / dropdown -->
+	          </li>
+	        </ul>
+        </div>
+        <!-- / navbar right -->
+
+      </div>
+      <!-- / navbar collapse -->
+    </div>
+
+<div class="managerPageBox ">
+	<div class="managerFlexLeft bg-dark">
+		<ul class="nav nav-pills nav-stacked nav-pills-stacked-example" ng-repeat="nu in nameUrl">
+	      	<li role="presentation" ng-class="{'active':$index==0}" ng-click="changeBackGroundColr($event)"><a ui-sref="{{nu.url}}" class="font-bold">{{nu.name}}</a></li>
+	    </ul>
+	</div>
+
+	<div class="managerFlexRight container-fluid" ui-view>
+		
+	</div>
+</div>
+
+
+
