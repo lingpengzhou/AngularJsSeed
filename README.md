@@ -1,0 +1,2 @@
+# AngularJsSeed
+很久以前搭建的一个angularjs后台项目管理系统，下载下来可以作为项目搭建的seed项目开发
