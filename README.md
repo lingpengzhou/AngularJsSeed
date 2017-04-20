@@ -10,3 +10,10 @@
 (第一版本未加入拦截器代码。	第一版本以实现页面登录验证功能)
 
 （测试登录账户为账号18717777123密码123）
+
+Login页面：
+![image](https://github.com/lingpengzhou/AngularJsSeed/raw/master/screenshots/Seedlogin.png)
+
+
+跳转后的页面：
+![image](https://github.com/lingpengzhou/AngularJsSeed/raw/master/screenshots/SeedAdmin.jpg)
